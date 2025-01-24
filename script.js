@@ -1,5 +1,5 @@
 // Wrap your entire script in a DOMContentLoaded event listener.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function()  {
     // Get the form element and its feedback div element.
     const form = document.getElementById("registration-form");
     const feedbackDiv = document.getElementById("form-feedback");
